@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nurdin Personal Web</title>
+
+    <!-- My Own Styles -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets\images\logo.png" alt="Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <article id="home">
+                <div class="content description">
+                    <p class="text-home">Hi, my name is Nurdin</p>
+                    <h1 class="title"><span id="typed-text"></span><span id="pointer">|</span></h1>
+                    <p class="text-home">I'm passionate about creating innovative and user-friendly web applications,
+                        and my enthusiasm
+                        extends to crafting intuitive and seamless mobile applications as well. I believe in delivering
+                        exceptional digital experiences across all platforms.</p>
+                    <button class="cta">
+                        <a href="assets\cv\CV - Nurdin A. Alawiyah.pdf" download id="text-cta">Download My CV</a>
+                    </button>
+                </div>
+                <div class="content-image">
+                    <img src="assets\images\home.png" alt="Nurdin A. Alawiyah">
+                </div>
+            </article>
+
+            <article id="portofolio">
+                <p>From Ideas to Solutions</p>
+                <h2>Nurdin's Portfolio</h2>
+                <div class="project">
+                    <div class="card card-portofolio">
+                        <div class="image-portofolio">
+                            <img src="assets\images\pkl-app.png" alt="PKL APP">
+                        </div>
+                        <h3>PKL APP</h3>
+                        <p class="project-description">PKL APP is a cutting-edge mobile application designed to streamline and simplify the process
+                            of managing internships and student placements.</p>
+                            <div class="link-github">
+                                <a href="https://github.com/nurdinahmadalawiyah/pkl-app" target="_blank">See On Github</a>
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                    </div>
+                    <div class="card card-portofolio">
+                        <div class="image-portofolio">
+                            <img src="assets\images\futoboru.png" alt="Futoboru">
+                        </div>
+                        <h3>Futoboru</h3>
+                        <p class="project-description">Futoboru is the ultimate mobile application designed exclusively for football enthusiasts. With Futoboru, you'll experience the thrill of football at your fingertips.</p>
+                        <div class="link-github">
+                            <a href="https://github.com/nurdinahmadalawiyah/Futoboru" target="_blank">See On Github</a>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="card card-portofolio">
+                        <div class="image-portofolio">
+                            <img src="assets\images\restaurant-app.png" alt="Restaurant App">
+                        </div>
+                        <h3>Restaurant App</h3>
+                        <p class="project-description">Restaurant App your go-to mobile application for discovering and exploring the best cafes and restaurants in town.</p>
+                        <div class="link-github">
+                            <a href="https://github.com/nurdinahmadalawiyah/restaurant-app" target="_blank">See On Github</a>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="contact">
+                <h2>Get in Touch</h2>
+                <p>Reach out to me easily through the contact form.</p>
+                <div class="card card-contact">
+                    <figure>
+                        <img src="assets\images\contact.png" />
+                    </figure>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" class="button-contact">Send</button>
+                    </form>
+                </div>
+            </article>
+        </div>
+        
+        <aside>
+            <article class="profile">
+                <header>
+                    <h2>About Me</h2>
+                    <p>Get to know Nurdin in brief</p>
+                </header>
+                <section>
+                    <div class="card card-extended">
+                        <figure>
+                            <img src="assets\images\profile.png" />
+                        </figure>
+                        <table>
+                            <tr>
+                                <th class="text-about-title">Nama</th>
+                            </tr>
+                            <tr>
+                                <td class="text-about-content">Nurdin A. Alawiyah</td>
+                            </tr>
+                            <tr>
+                                <th class="text-about-title">Alamat</th>
+                            </tr>
+                            <tr>
+                                <td class="text-about-content">Kp. Cipeusing RT.03 RW. 04 Desa. Kertawangi Kec. Cisarua Kab. Bandung Barat</td>
+                            </tr>
+                            <tr>
+                                <th class="text-about-title">Telp/Hp</th>
+                            </tr>
+                            <tr>
+                                <td class="text-about-content">08977612607</td>
+                            </tr>
+                            <tr>
+                                <th class="text-about-title" >Email</th>
+                            </tr>
+                            <tr>
+                                <td class="text-about-content">nurdinahmada@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th class="text-about-title">About</th>
+                            </tr>
+                            <tr>
+                                <td class="text-about-content">I am an individual deeply passionate about the world of programming, with experience I
+                                    have accumulated in web and mobile application development. Outside of working hours, I
+                                    consistently take online courses to further deepen my knowledge in the field of
+                                    programming. I am highly enthusiastic and ready to continually expand my skills and
+                                    knowledge in technology and programming.</td>
+                            </tr>
+                        </table>
+                </section>
+                </div>
+            </article>
+        </aside>   
+    </main>
+    
+    <footer>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/nurdin-a-alawiyah-525385179/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/nurdin.ahmadalawiyah/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/nurdin_alawiyah" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="text-copyright">Copyright &#169; 2023, Nurdin A. Alawiyah</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/styles/typed-text.js"></script>
+</body>
+
+</html>

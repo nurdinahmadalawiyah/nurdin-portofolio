@@ -1,0 +1,416 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1200px;
+  padding: 2rem 4rem;
+  margin-inline: auto;
+  flex: 1
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #FAFAFA;
+  z-index: 999;
+}
+
+.navbar .logo img {
+  width: 200px;
+}
+
+.nav a {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #292a27;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.nav {
+  background-color: transparent;
+  padding: 5px;
+}
+
+h2,
+h3,
+p {
+  color: #292a27;
+}
+
+a {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #292A27
+}
+
+.content {
+  align-items: center;
+}
+
+#home {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#portofolio {
+  text-align: center;
+  justify-content: center
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#contact {
+  text-align: center;
+  justify-content: center
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#text-cta {
+  color: #FFFFFF;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  flex: 1 1;
+}
+
+.project-description {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.link-github {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 20px 20px;
+  color: #292A27;
+  transition: margin 0.3s ease;
+}
+
+.link-github:hover {
+  margin: 20px 40px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.title #typed-text {
+  font-size: 84px;
+  margin: 0px;
+  animation: typing 2s steps(30) 1s forwards;
+}
+
+.text-home {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#pointer {
+  color: #1d5aff;
+  font-size: 84px;
+  animation: blink 1s infinite;
+}
+
+.cta {
+  padding: 15px 50px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #577cf2;
+  color: #ffffff;
+  border-radius: 20px;
+  border: solid #303030 3px;
+  box-shadow: 6px 6px #303030;
+  transition: box-shadow 0.3s ease;
+}
+
+.cta:hover, .button-contact:hover {
+  box-shadow: none;
+}
+
+.button-contact {
+  padding: 10px 80px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #577cf2;
+  color: #ffffff;
+  border-radius: 10px;
+  border: solid #303030 3px;
+  box-shadow: 6px 6px #303030;
+  transition: box-shadow 0.3s ease;
+  margin-left: auto;
+}
+
+.content-image {
+  flex: 1;
+  display: flex;
+}
+
+.content-image img {
+  margin: auto;
+  min-width: 300px;
+  width: 350px;
+}
+
+.image-portofolio {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 200px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 250px;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  border: solid #303030 3px;
+  box-shadow: 6px 6px #303030;
+}
+
+.card-portofolio {
+  max-width: 300px;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.card-portofolio:hover {
+  box-shadow: none;
+  background-color: #FAFAFA;
+}
+
+.card-contact {
+  display: flex;
+  background-color: #FFFFFF;
+  margin: 50px auto;
+  align-items: center;
+}
+
+.card-extended {
+  display: flex;
+  padding: 100px 20px;
+  margin: 20px 0;
+  background-color: #577cf2;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0px;
+  background-color: #F2F5F5;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #292a27;
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.text-copyright {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-about-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.text-about-content {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.card-contact form {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.card-contact form input,
+.card-contact form textarea {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.card-contact form input:focus,
+.card-contact form textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #577cf2;
+}
+
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 0 2rem;
+  }
+  
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar .nav ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  } 
+
+  #home {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .title #typed-text {
+    font-size: 36px;
+  }
+
+  #pointer {
+    font-size: 36px;
+  }
+
+  .description {
+    order: 2;
+    text-align: center;
+  }
+
+  .description .title {
+    font-size: 36px;
+  }
+
+  .description .text-home {
+    font-size: 1rem;
+  }
+
+  .content-image {
+    order: 1;
+  }
+  
+  .content-image img {
+    margin: auto;
+    min-width: 100px;
+    width: 200px;
+  }
+  
+  .project {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+  }
+
+  .card-portofolio {
+    margin: 0 auto;
+  }
+
+  .card-contact {
+    flex-direction: column;
+  }
+
+  .card-contact img {
+    width: 100px;
+  }
+
+  .card-contact form input,
+  .card-contact form textarea {
+    padding: 0;
+  }
+
+  .card-extended {
+    flex-direction: column;
+    padding: 20px;
+    align-image: center;
+  }
+  
+  .card-extended img {
+    width: 200px;
+  }
+
+  .button-contact {
+    margin : 0 auto;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
